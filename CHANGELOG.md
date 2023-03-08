@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.6 (2023-03-08)
+
+
+### Bug Fixes
+
+* updated go mod to be coherent with repo name ([09a63f6](https://github.com/shoriwe/rollee-test-1/commit/09a63f66ff559e4f63c0f9e1e0b4a61bbf06de76))
+
 ### 0.0.5 (2023-03-08)
 
 
