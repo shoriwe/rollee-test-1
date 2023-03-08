@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.5 (2023-03-08)
+
+
+### Bug Fixes
+
+* added personal token to make sure release is created as owner ([5792e0c](https://github.com/shoriwe/rollee-test-1/commit/5792e0cdd3d262ce9c1d5d8f3aac937ac667af98))
+
 ### 0.0.4 (2023-03-08)
 
 
