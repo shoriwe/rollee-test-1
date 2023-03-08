@@ -2,6 +2,8 @@
 
 [![Build](https://github.com/shoriwe/rollee-test-1/actions/workflows/build.yaml/badge.svg)](https://github.com/shoriwe/rollee-test-1/actions/workflows/build.yaml)
 [![codecov](https://codecov.io/gh/shoriwe/rollee-test-1/branch/main/graph/badge.svg?token=X4TANIHG6Q)](https://codecov.io/gh/shoriwe/rollee-test-1)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/shoriwe/rollee-test-1)
+[![Go Report Card](https://goreportcard.com/badge/github.com/shoriwe/rollee-test-1)](https://goreportcard.com/report/github.com/shoriwe/rollee-test-1)
 
 Test 1 for Rollee. Instructions can be found
 
