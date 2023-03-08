@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.3 (2023-03-08)
+
+
+### Bug Fixes
+
+* updated coverage CI to execute on release ([9620541](https://github.com/shoriwe/rollee-test-1/commit/962054118ccaf44c94fef046b5e8df04061d3fc0))
+
 ### 0.0.2 (2023-03-08)
 
 
