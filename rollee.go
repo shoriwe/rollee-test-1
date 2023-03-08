@@ -34,14 +34,14 @@ func FoldChan(initialValue int, f func(int, int) int, ch chan List) map[ID]int {
 func FoldChanX(initialValue int, f func(int, int) int, chs ...chan List) map[ID]int {
 	var (
 		result      = map[ID]int{}
-		resultMutex sync.Mutex
+		resultMutex sync.Mutex // Why mutex? We want to write to result as soon as possible, not when workers complete
 		wg          sync.WaitGroup
 	)
 	wg.Add(len(chs))
 	for _, ch := range chs {
 		go func(channel chan List) {
 			defer wg.Done()
-			localResult := FoldChan(initialValue, f, channel)
+			localResult := FoldChan(initialValue, f, channel) // This line should always be computed in parallel
 			resultMutex.Lock()
 			defer resultMutex.Unlock()
 			for id, value := range localResult {
